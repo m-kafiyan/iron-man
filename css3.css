@@ -311,7 +311,7 @@ div.lfinger div.lcf{
 }
 body.container div.rightarm{
 	background-color		: #000;
-    width					: 96px;
+    width					: 87px;
     height					: 15px;
     position				: absolute;
     margin-left				: 547px;
@@ -426,12 +426,30 @@ body.container div.lleg{
 	position				: absolute;
     width					: 60px;
     height					: 150px;
-    margin-left				: 302px;
+    margin-left				: 313px;
     margin-top				: 71px;
     -webkit-transform		: rotate(30deg);
     -ms-transform			: rotate(30deg);
 	-o-transform			: rotate(30deg);
 	-moz-transform			: rotate(30deg);
+	-webkit-animation-name		:mvlleg;
+	-webkit-animation-duration	:1.5s;
+	-webkit-transform-origin	:right top;
+	-webkit-animation-iteration-count	:infinite;
+}
+@-webkit-keyframes mvlleg{
+	0%   {-webkit-transform			: rotateZ(-0deg);margin-top:60px;}
+	10%   {-webkit-transform		: rotateZ(15deg);margin-top:70px;}
+	20%   {-webkit-transform		: rotateZ(35deg);margin-top:80px;}
+	30%   {-webkit-transform		: rotateZ(55deg);margin-top:90px;}
+	40%   {-webkit-transform		: rotateZ(75deg);margin-top:100px;}
+	50%   {-webkit-transform		: rotateZ(90deg);margin-top:110px;}
+	60%   {-webkit-transform		: rotateZ(75deg);margin-top:100px;}
+	70%   {-webkit-transform		: rotateZ(55deg);margin-top:90px;}
+	80%  {-webkit-transform			: rotateZ(35deg);margin-top:80px;}
+	90% {-webkit-transform			: rotateZ(15deg);margin-top:700px;}
+	100%   {-webkit-transform		: rotateZ(0deg);margin-top:60px;}
+
 }
 div.lleg1{
 	width					: 30px;
@@ -525,7 +543,7 @@ div.envelop div.arrowup{
 }
 body.container div.mrh1{
 	-webkit-animation-name		:mv;
-	-webkit-animation-duration	:2.5s;
+	-webkit-animation-duration	:1.5s;
 	-webkit-transform-origin	:bottom;
 	-webkit-animation-iteration-count	:infinite;
 	width						: 87px;
