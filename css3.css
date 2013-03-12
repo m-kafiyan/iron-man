@@ -1,0 +1,563 @@
+body.container{
+	background-color		:#fff;
+	width					:900px;
+	min-height				:500px;
+	margin-left				:auto;
+	margin-right			:auto;
+}
+div.hbdy{
+	background-color		:#000;
+	height					:255px;
+	width					:206px;
+	margin-top				:65px;
+	margin-right			:auto;
+	margin-left				:auto;
+	border-top-left-radius	:102px;
+	border-top-right-radius	:102px;
+	border					:2px solid black;
+	position				:relative;
+
+}
+div.hbdy div.bbdy{
+	background-color		:#000;
+	width					:195px;
+	height					:244px;
+	margin-left				:auto;
+	margin-right			:auto;
+	border-top-left-radius	:102px;
+	border-top-right-radius	:102px;
+	border					:5px solid white;
+	position				:absolute;
+}
+div.hbdy div.bbdy div.ehbdy{
+	background-color		:#fefefe;
+	width					:150px;
+	height					:150px;
+	margin-left				:22px;
+	margin-top				:35px;
+	border-radius			:100px;
+	padding					:1px;
+}
+div.bbdy div.ehbdy div.ebhbdy{
+	background-color		:#096688;
+	padding					:1px;
+	border-radius			:70px;
+	width					:75px;
+	height					:75px;
+	margin-top				:38px;
+	margin-left				:35px;
+	z-index					:15;
+
+}
+div.ebhbdy div.bebdy{
+	background-color		:#393939;
+	margin-right			:auto;
+	margin-left				:auto;
+	border-radius			:25px;
+	width					:45px;
+	height					:45px;
+	margin-top				:15px;
+	padding					:1px;
+}
+div.bbdy div.ehbdy div.opcbdy{
+	background-color		:#fff;
+	width					:25px;
+	height					:25px;
+	z-index					:15;
+	float					:left;
+	margin-left				:77px;
+	margin-top				:48px;
+	opacity					:0.5;
+	border-radius			:14px;
+}
+div.bbdy div.ehbdy div.opbdy{
+	background-color		:#fff;
+	border-radius			:7px;
+	width					:10px;
+	height					:10px;
+	margin-left				:29px;
+	margin-top				:26px;
+	opacity					:0.5;
+
+}
+div.bbdy div.effect1{
+	background-color		:#fff;
+	border-radius			:7px;
+	width					:13px;
+	height					:13px;
+	float					:left;
+	margin-left				:122px;
+	margin-top				:18px;
+}
+div.bbdy div.effect2{
+	background-color		:#fff;
+	border-radius			:4px;
+	width					:7px;
+	height					:7px;
+	float					:left;
+	margin-top				:30px;
+}
+div.bbdy div.effect3{
+	background-color		:#fff;
+	border-radius			:3px;
+	width					:5px;
+	height					:5px;
+	float					:left;
+	margin-top				:20px;
+}
+div.bbdy div.effect4,
+div.bbdy div.effect5
+{
+	float					:left;
+	width					:40px;
+	height					:35px;
+}
+div.bbdy div.effect5{
+	margin-left				:105px;
+}
+div.bbdy div.effect6{
+	width					:40px;
+	height					:35px;
+	float					:right;
+	margin-right			:20px;
+}
+div.effect4 div,
+div.effect5 div,
+div.effect6 div
+{
+	background-color		:#fff;
+}
+div.effect4 div.effectaa{
+	width					:10px;
+	height					:10px;
+	margin-left				:15px;
+	border-radius			:7px;
+
+}
+div.effect4 div.effectab{
+	width					:5px;
+	height					:5px;
+	margin-left				:10px;
+	border-radius			:3px;
+	
+}
+div.effect4 div.effectac{
+	width					:3px;
+	height					:3px;
+	margin-left				:18px;
+	border-radius			:3px;
+	
+}
+div.effect5 div.effectba{
+	width					:7px;
+	height					:7px;
+	margin-left				:20px;
+	border-radius			:4px;
+}
+div.effect5 div.effectbb{
+	width					:10px;
+	height					:10px;
+	margin-left				:12px;
+	border-radius			:7px;
+}
+div.effect5 div.effectbc{
+	width					:5px;
+	height					:5px;
+	margin-left				:23px;
+	border-radius			:3px;
+}
+div.effect6 div.effectca{
+	width					:3px;
+	height					:3px;
+	border-radius			:2px;
+}
+div.effect6 div.effectcb{
+	width					:7px;
+	height					:7px;
+	margin-left				:5px;
+	border-radius			:4px;
+}
+div.effect6 div.effectcc{
+	width					:3px;
+	height					:3px;
+	margin-left				:15px;
+	border-radius			:2px;
+}
+body.container div.bdy{
+	width					:250px;
+	height					:100px;
+	border-bottom-right-radius	:302px;
+	border-bottom-left-radius	:302px;
+	float					:left;
+	margin-left				:325px;
+	background-color		:#000;
+	margin-top				:-2px;
+}
+body.container div.leftarm{
+	background-color		:#000;
+	width					:15px;
+	height					:96px;
+	float					:left;
+	margin-left				:310px;
+	margin-top				:111px;
+	-webkit-transform		:rotate(75deg);
+	-ms-transform			: rotate(75deg);
+	-o-transform			: rotate(75deg);
+	-moz-transform			: rotate(75deg);
+}
+body.container div.leftelbow{
+	background-color		:#fff;
+	width					:35px;
+	height					:35px;
+	float					:left;
+	position				:absolute;
+	border-radius			:18px;
+	margin-top				:-100px;
+	margin-left				:19px;
+	border					:2px solid #000;
+}
+div.leftelbow div.celbow{
+	background-color		:#000;
+	width					:33px;
+	height					:33px;
+	border-radius			:15px;
+	margin-top				:1px;
+	margin-left				:1px;
+}
+body.container div.hand{
+	position				:absolute;
+	margin-left				:27px;
+	margin-top				:88px;
+	-webkit-transform		: rotate(-79deg);
+    -ms-transform			: rotate(-79deg);
+	-o-transform			: rotate(-79deg);
+	-moz-transform			: rotate(-79deg);
+}
+div.hand span.lefttriangle{
+	position				: absolute;
+    width					: 0;
+    height					: 0;
+    border					: solid transparent;
+    right					: 100%;
+    top						: 0;
+    border-width			: 81px 2px 77px 6px;
+    border-top-color		: black;
+    -webkit-transform		: rotate(18deg);
+    -ms-transform			: rotate(18deg);
+	-o-transform			: rotate(18deg);
+	-moz-transform			: rotate(18deg);
+}
+div.hand div.lhand{
+	width					: 8px;
+    height					: 85px;
+    background-color		: #000;
+    margin-left				: 10px;
+    -webkit-transform		: rotate(18deg);
+    -ms-transform			: rotate(18deg);
+	-o-transform			: rotate(18deg);
+	-moz-transform			: rotate(18deg);
+}
+div.hand span.righttriangle{
+	position				: absolute;
+    width					: 0;
+    height					: 0;
+    border					: solid transparent;
+    left					: 100%;
+    top						: 0;
+    border-width			: 84px 7px 0px 0px;
+    border-top-color		: black;
+    -webkit-transform		: rotate(18deg);
+    -ms-transform			: rotate(18deg);
+	-o-transform			: rotate(18deg);
+	-moz-transform			: rotate(18deg);
+}
+body.container div.leftwrist{
+	background-color		:#fff;
+	width					:20px;
+	height					:20px;
+	border-radius			:13px;
+	margin-left				:17px;
+	position				:absolute;
+	margin-top				:-87px;
+	border					:solid 2px #000;
+}
+body.container div.leftwrist div.lw{
+	background-color		:#000;
+	width					:18px;
+	height					:18px;
+	border-radius			:8px;
+	margin-top				:1px;
+	margin-left				:1px;
+}
+body.container div.lfinger{
+    width					: 70px;
+    background-color		: #000;
+    height					: 70px;
+    position				: absolute;
+    border-radius			: 60px;
+    margin-left				: -25px;
+    margin-top				: -14px;
+    -webkit-transform		: rotate(357deg);
+    -ms-transform			: rotate(357deg);
+	-o-transform			: rotate(357deg);
+	-moz-transform			: rotate(357deg);
+}
+div.lfinger div.lcf{
+	width					: 77px;
+    height					: 73px;
+    background-color		: #fff;
+    margin-top				: 10px;
+    border-radius			: 52px;
+}
+body.container div.rightarm{
+	background-color		: #000;
+    width					: 96px;
+    height					: 15px;
+    position				: absolute;
+    margin-left				: 547px;
+    margin-top				: 131px;
+    -webkit-transform		: rotate(-10deg);
+     -ms-transform			: rotate(10deg);
+	-o-transform			: rotate(10deg);
+	-moz-transform			: rotate(10deg);
+}
+body.container div.righthand{
+	position				: absolute;
+    margin-top				: 40px;
+   /* margin-left				: 653px;*/
+}
+div.righthand span.lefttriangle2{
+	position				: absolute;
+    width					: 0;
+    height					: 0;
+    border					: solid transparent;
+    bottom					: 0;
+    border-width			: 4px 0px 86px 16px;
+    border-bottom-color		: #000;
+    -webkit-transform		: rotate(-24deg);
+    -ms-transform			: rotate(-24deg);
+	-o-transform			: rotate(-24deg);
+	-moz-transform			: rotate(-24deg);
+	margin-left				:14px;
+}
+div.righthand div.rhand{
+	width					: 8px;
+    height					: 90px;
+    background-color		: black;
+    -webkit-transform		: rotate(-24deg);
+    -ms-transform			: rotate(-24deg);
+	-o-transform			: rotate(-24deg);
+	-moz-transform			: rotate(-24deg);
+	margin-left				:30px;
+}
+div.righthand span.righttriangle2{
+	position				: absolute;
+    width					: 0;
+    height					: 0;
+    border					: solid transparent;
+    left					: 100%;
+    bottom					: 0;
+    border-width			: 71px 0px 96px 12px;
+    border-bottom-color		: #000;
+   -webkit-transform		: rotate(-24deg);
+    -ms-transform			: rotate(-24deg);
+	-o-transform			: rotate(-24deg);
+	-moz-transform			: rotate(-24deg);
+	margin-left				:-28px;
+}
+body.container div.rightelbow{
+	background-color		: #fff;
+    width					: 35px;
+    height					: 35px;
+    position				: absolute;
+    border-radius			: 20px;
+    border					: solid 2px black;
+    margin-left				: -30px;
+    margin-top				: 50px;
+}
+div.rightelbow div.relbow{
+	background-color		: #000;
+    width					: 33px;
+    height					: 33px;
+    border-radius			: 18px;
+    margin-left				: 1px;
+    margin-top				: 1px;
+}
+body.container div.rfinger{
+	width					: 70px;
+    height					: 70px;
+    position				: absolute;
+    background-color		: #000;
+    border-radius			: 133px;
+   	margin-left				: -23px;
+    -webkit-transform		: rotate(-32deg);
+    -ms-transform			: rotate(-32deg);
+	-o-transform			: rotate(-32deg);
+	-moz-transform			: rotate(-32deg);
+    margin-top				: -157px;
+}
+div.rfinger div.rcf{
+	width					: 77px;
+    height					: 73px;
+    background-color		: #fff;
+    border-radius			: 40px;
+    margin-top				: -13px;
+    padding					:1px;
+}
+body.container div.rightwrist{
+	background-color		: #fff;
+    width					: 20px;
+    height					: 20px;
+    position				: absolute;
+    border-radius			: 13px;
+    border					: 2px solid black;
+    margin-left				: 10px;
+    margin-top				: -10px;
+}
+div.rightwrist div.rw{
+	background-color		: #000;
+    width					: 18px;
+    height					: 18px;
+    border-radius			: 10px;
+    margin-left				: 1px;
+    margin-top				: 1px;
+}
+body.container div.lleg{
+	position				: absolute;
+    width					: 60px;
+    height					: 150px;
+    margin-left				: 302px;
+    margin-top				: 71px;
+    -webkit-transform		: rotate(30deg);
+    -ms-transform			: rotate(30deg);
+	-o-transform			: rotate(30deg);
+	-moz-transform			: rotate(30deg);
+}
+div.lleg1{
+	width					: 30px;
+    height					: 12px;
+    background-color		: #000;
+    border-radius			: 13px;
+    margin-left				: 12px;
+}
+div.legs{
+	width					: 30px;
+    height					: 12px;
+    background-color		: #000;
+    margin-top				: 3px;
+    border-radius			: 13px;
+    margin-left				: 12px;
+}
+div.lleg div.leftfoot{
+	width					: 50px;
+    height					: 23px;
+    background-color		: black;
+    margin-top				: 3px;
+    border-top-right-radius	: 31px;
+    border-top-left-radius	: 31px;
+    -webkit-transform		: rotate(-28deg);
+    -ms-transform			: rotate(-28deg);
+	-o-transform			: rotate(-28deg);
+	-moz-transform			: rotate(-28deg);
+}
+body.container div.middleleg{
+	position				: absolute;
+    width					: 60px;
+    height					: 150px;
+    margin-left				: 421px;
+    margin-top				: 95px;
+}
+div.middleleg div.middlefoot{
+	width					: 50px;
+    height					: 23px;
+    background-color		: black;
+    margin-top				: 3px;
+    border-top-right-radius	: 31px;
+    border-top-left-radius	: 31px;
+    margin-left				: 3px;
+}
+body.container div.rightleg{
+	 position				: absolute;
+    width					: 60px;
+    height					: 150px;
+    margin-left				: 538px;
+    margin-top				: 71px;
+    -webkit-transform		: rotate(-30deg);
+    -ms-transform			: rotate(-30deg);
+	-o-transform			: rotate(-30deg);
+	-moz-transform			: rotate(-30deg);
+}
+div.rightleg div.rightfoot{
+	width					: 50px;
+    height					: 23px;
+    background-color		: black;
+    margin-top				: 3px;
+    border-top-right-radius	: 31px;
+    border-top-left-radius	: 31px;
+    -webkit-transform	: rotate(28deg);
+    -ms-transform		: rotate(28deg);
+	-o-transform		: rotate(28deg);
+	-moz-transform		: rotate(28deg);
+}
+div.rcf div.envelop{
+	width				: 64px;
+    height				: 39px;
+    background-color	: #c4e90e;
+    -webkit-transform	: rotate(20deg);
+    margin-top			: 19px;
+    margin-left			: 5px;
+    box-shadow			: 1px 1px 5px 0px;
+}
+div.envelop div.arrowdown{
+	width				: 0;
+    height				: 0;
+    border-left			: 32px solid transparent;
+    border-right		: 32px solid transparent;
+    border-top			: 21px solid #e8f8a0;
+} 
+div.envelop div.arrowup{
+	width				: 0;
+    height				: 0;
+    border-left			: 32px solid transparent;
+    border-right		: 32px solid transparent;
+    border-bottom		: solid 18px #e8f8a0;
+
+}
+body.container div.mrh1{
+	-webkit-animation-name		:mv;
+	-webkit-animation-duration	:2.5s;
+	-webkit-transform-origin	:bottom;
+	-webkit-animation-iteration-count	:infinite;
+	width						: 87px;
+    height						: 143px;
+    position					: absolute;
+    margin-left					: 44px;
+    margin-top					:-118px;
+    -webkit-transform			:rotate(151deg);
+}
+body.container div.mrh1 > div > div{
+	
+}
+@-webkit-keyframes mv{
+	0%   {-webkit-transform		: rotateZ(-0deg);}
+	50%  {-webkit-transform		: rotateZ(40deg);}
+	100% {-webkit-transform		: rotateZ(-0deg);}
+}
+@-moz-keyframes mv{
+	0%   {-webkit-transform		: rotateZ(20deg);}
+	50%  {-webkit-transform		: rotateZ(-20deg);}
+	100% {-webkit-transform		: rotateZ(20deg);}
+}
+@-webkit-keyframes mvup{
+	from {;}
+	10%  
+	20%  
+	30%  
+	40%  
+	50%  
+	60%  
+	70%  
+	80%  
+	90%  
+	to   
+}
