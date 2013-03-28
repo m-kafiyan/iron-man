@@ -4,6 +4,9 @@ body.container{
 	min-height				:500px;
 	margin-left				:auto;
 	margin-right			:auto;
+	-webkit-animation-duration			:6s;
+	-webkit-animation-iteration-count	:infinite;
+	-webkit-animation-name				:bdmove;
 }
 div.hbdy{
 	background-color		:#000;
@@ -18,6 +21,12 @@ div.hbdy{
 	position				:relative;
 
 }
+@-webkit-keyframes bdmove{
+	0%   {-webkit-transform		:translateX(-50%) ;}
+	50%  {-webkit-transform		:translateX(50%) ;}
+	100% {-webkit-transform		:translateX(-50%);}
+}
+
 div.hbdy div.bbdy{
 	background-color		:#000;
 	width					:195px;
@@ -477,6 +486,9 @@ div.lleg div.leftfoot{
 	-o-transform			: rotate(-28deg);
 	-moz-transform			: rotate(-28deg);
 	padding					:1px;
+	-webkit-animation-name 		:round;
+	-webkit-animation-duration	:0.5s;
+	-webkit-animation-iteration-count	:infinite;
 }
 body.container div.middleleg{
 	position				: absolute;
@@ -484,6 +496,7 @@ body.container div.middleleg{
     height					: 150px;
     margin-left				: 421px;
     margin-top				: 95px;
+
 }
 div.middleleg div.middlefoot{
 	width					: 50px;
@@ -493,6 +506,9 @@ div.middleleg div.middlefoot{
     margin-left				: 3px;
     padding 				:1px;
     border-radius			:30px;
+    -webkit-animation-name 		:round;
+	-webkit-animation-duration	:0.5s;
+	-webkit-animation-iteration-count	:infinite;
 }
 body.container div.rightleg{
 	 position				: absolute;
@@ -516,6 +532,16 @@ div.rightleg div.rightfoot{
     -ms-transform		: rotate(28deg);
 	-o-transform		: rotate(28deg);
 	-moz-transform		: rotate(28deg);
+	-webkit-animation-name 		:round;
+	-webkit-animation-duration	:0.5s;
+	-webkit-animation-iteration-count	:infinite;
+}
+@-webkit-keyframes round{
+	0%   {-webkit-transform		: rotate(0deg);}
+	25%  {-webkit-transform		: rotate(180deg);}
+	50% {-webkit-transform		: rotate(360deg);}
+	75% {-webkit-transform		: rotate(-180deg);}
+	100% {-webkit-transform		: rotate(0deg);}
 }
 div.wrc{
 	width				: 45;
@@ -534,6 +560,23 @@ div.brc{
     margin-left			: 1px;
     margin-top			: 1px;
     padding 			:1px;
+}
+div.brc div.wrc2{
+	width				: 30px;
+    height				: 30px;
+    background			: #fff;
+    border-radius		: 20px;
+    margin-top			: 5px;
+    margin-left			: 4px;
+    padding 			:1px;
+}
+div.wrc2 div.brc2{
+	width				: 25px;
+    height				: 25px;
+    background			: #000;
+    border-radius		: 15px;
+    margin-top			: 2px;
+    margin-left			: 2px;
 }
 div.rcf div.envelop{
 	width				: 64px;
